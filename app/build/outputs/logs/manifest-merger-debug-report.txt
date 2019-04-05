@@ -1,0 +1,235 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\9e4089f9ebbd64326a020e106a7c382b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:4:11-46
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:6:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:9:22-75
+uses-permission#android.permission.REBOOT
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:10:5-11:59
+	tools:ignore
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:11:22-57
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.DEVICE_POWER
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:12:5-13:59
+	tools:ignore
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:13:22-57
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.RECOVERY
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:14:22-64
+application
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:16:5-46:19
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\9e4089f9ebbd64326a020e106a7c382b\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\9e4089f9ebbd64326a020e106a7c382b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:20:9-41
+	tools:ignore
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:24:9-48
+	android:largeHeap
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:21:9-33
+	android:icon
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:17:9-30
+meta-data#com.samsung.android.sdk.multiwindow.penwindow.enable
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:25:9-110
+	android:value
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:25:88-108
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:25:20-87
+meta-data#com.sec.android.support.multiwindow
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:26:9-94
+	android:value
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:26:71-91
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:26:20-70
+activity#com.wubydax.romcontrol.v2.MainActivity
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:30:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:33:27-74
+category#android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:34:17-89
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:34:27-86
+activity#com.wubydax.romcontrol.v2.AboutActivity
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:37:9-40:20
+	android:parentActivityName
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:39:13-55
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:38:13-42
+service#com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService
+ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:42:9-45:19
+	android:exported
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml:43:13-61
+uses-sdk
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\9e4089f9ebbd64326a020e106a7c382b\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\9e4089f9ebbd64326a020e106a7c382b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\2851d3f2eb390f6bc83b63389a64c4e8\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:transition:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\transition-26.0.0-beta1.aar\5212852f6386bfe3d3063a4bc4ae91cb\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\5dc4af604d5e1e77d93200f3ca46f1ea\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:cardview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\cardview-v7-26.0.0-beta1.aar\0b8c6a0ea79adb5849526ce25a3ba344\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\ab3989d6395472af22a17a98b7e495a4\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\8d2c59607654b400fc11bf0a03560da5\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\0cd7ef7398c5c44ed93da687a799eb43\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\a44b16bc98c72209f225e114f07b9c6b\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\d14d4b65dea4f02263cad4d3ef430bf0\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\3db2b914498119153fe8cc31c2f13326\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\85af3048615f8566e8cdf51db5e9bd8c\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c0ec223a75d2e0d23e680e109f8e754f\AndroidManifest.xml:26:9-28:44
+	android:value
+		ADDED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:28:13-41
+	android:name
+		ADDED from [com.android.support:design:26.0.0-beta1] C:\Users\kyler\.gradle\wrapper\dists\gradle-3.2-all\caches\transforms-1\files-1.1\design-26.0.0-beta1.aar\ce1419f37e4d81a823f952092718cbf4\AndroidManifest.xml:27:13-51
