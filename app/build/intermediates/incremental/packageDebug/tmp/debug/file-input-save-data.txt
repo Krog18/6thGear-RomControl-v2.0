@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Fri Apr 05 16:41:36 EDT 2019
-4.path=classes.dex
+#Sat Nov 09 17:00:53 EST 2019
+4.path=scripts/simple_test.sh
 8.set=DEX
 6.path=classes.dex
 0.baseType=DIRECTORY
@@ -9,8 +9,8 @@
 1.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
 8.path=classes.dex
 3.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
-4.set=DEX
-5.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+4.set=ASSET
+5.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
 7.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
 11.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 9.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
@@ -26,7 +26,7 @@
 7.baseType=DIRECTORY
 3.path=classes.dex
 10.set=DEX
-5.path=scripts/simple_test.sh
+5.path=classes.dex
 0.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 7.path=classes.dex
 11.path=classes.dex
@@ -34,7 +34,7 @@
 6.set=DEX
 2.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
 11.baseType=DIRECTORY
-4.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+4.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 3.baseType=DIRECTORY
 6.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 10.base=C\:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
@@ -44,7 +44,7 @@
 9.set=DEX
 count=12
 4.baseType=DIRECTORY
-5.set=ASSET
+5.set=DEX
 9.baseType=DIRECTORY
 0.path=classes.dex
 1.set=DEX

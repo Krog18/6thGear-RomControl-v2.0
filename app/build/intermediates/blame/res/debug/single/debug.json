@@ -64,8 +64,16 @@
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_15.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_15.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_2.jpg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_2.jpg"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
@@ -134,6 +142,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_name.xml.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-anydpi\\ic_action_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_22.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_22.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_alarm_6.png.flat",
@@ -252,12 +264,20 @@
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_17.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_17.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_11.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_11.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -570,6 +590,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_12.jpeg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_12.jpeg"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
@@ -908,10 +932,6 @@
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\layout\\intent_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_2.jpeg.flat",
-        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_2.jpeg"
-    },
-    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -956,6 +976,10 @@
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signalstyle1.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\signalstyle1.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -990,6 +1014,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_notification_material_bg_6.png.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-xxhdpi\\notification_material_bg_6.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_18.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_18.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1092,6 +1120,10 @@
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_19.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_19.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -1138,6 +1170,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_20.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_20.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -1278,6 +1314,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_alarm_5.png.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_alarm_5.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_21.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_21.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tbg_12.png.flat",
@@ -1516,6 +1556,10 @@
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_14.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_14.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_intent_preference_app_icon.xml.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\layout\\intent_preference_app_icon.xml"
     },
@@ -1590,6 +1634,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_10.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_10.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -1684,6 +1732,10 @@
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\protective_semi_transparent_black.xml"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_16.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_16.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -1706,6 +1758,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_23.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_23.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
@@ -1790,6 +1846,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_changelog_item.xml.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\layout\\changelog_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_10.jpg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_10.jpg"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -1920,6 +1980,10 @@
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_framework.xml"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_11.jpg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_11.jpg"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\layout\\abc_expanded_menu_layout.xml"
     },
@@ -1954,6 +2018,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_9.jpg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_9.jpg"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
@@ -2018,6 +2086,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_8.jpg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_8.jpg"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
@@ -2088,12 +2160,12 @@
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -2296,6 +2368,10 @@
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_location2.png"
     },
     {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_12.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_12.png"
+    },
+    {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_statusbar.xml.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_statusbar.xml"
     },
@@ -2314,6 +2390,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\2851d3f2eb390f6bc83b63389a64c4e8\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_sys_signal_2_13.png.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable\\stat_sys_signal_2_13.png"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -2362,6 +2442,10 @@
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tbg_7.png.flat",
         "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-xxhdpi\\tbg_7.png"
+    },
+    {
+        "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_icon_7.jpg.flat",
+        "source": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\src\\main\\res\\drawable-nodpi\\icon_7.jpg"
     },
     {
         "merged": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tbg_26.png.flat",

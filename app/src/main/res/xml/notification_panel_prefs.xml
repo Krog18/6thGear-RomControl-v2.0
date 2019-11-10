@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="Background and background color of notifications" />
-    <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Select Background Templates" android:summary="Select template" android:key="notification_bg_select" android:defaultValue="0" app:drawableArray="@array/notification_bg_select_drawables" app:entryList="@array/notification_bg_select_entries" app:entryValuesList="@array/notification_bg_select_values" />
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Background color of notifications" android:key="is_expanded_switch_bg" android:defaultValue="false" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notification background color" android:key="is_notification_bg_color" android:dependency="is_expanded_switch_bg" android:defaultValue="\#fffafafa" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    <PreferenceScreen android:title="Notification overlay">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom Background" android:key="notif_bg_shape" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_bg_type_entries" android:title="Background Type" android:key="edit_panel_custom_bg_type" android:defaultValue="0" android:entryValues="@array/custom_bg_type_values" app:dependentValue="0" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background Transparency" android:key="edit_panel_opacity" android:defaultValue="255" app:minValue="0" app:maxValue="255" />
-        <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select Image" android:key="edit_panel_bg_uri" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/crop_entries" android:title="Image Location" android:key="edit_panel_crop_type" android:defaultValue="0" android:entryValues="@array/crop_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Select Primary color" android:key="edit_panel_bg_primary_color" android:dependency="edit_panel_custom_bg_type" android:defaultValue="\#00000000" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Select Second color" android:key="edit_panel_second_gradient_color" android:dependency="edit_panel_custom_bg_type" android:defaultValue="\#00000000" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient Direction" android:key="edit_panel_bg_gradient_orientation" android:dependency="edit_panel_custom_bg_type" android:defaultValue="0" android:entryValues="@array/gradient_values" />
-    </PreferenceScreen>
-    <PreferenceScreen android:title="Notification bottom area overlay">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom background" android:key="wrp_sb_gear_custom_bg" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_bg_type_entries" android:title="Background Type" android:key="wrp_sb_custom_bg_type" android:defaultValue="0" android:entryValues="@array/custom_bg_type_values" app:dependentValue="0" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background Transparency" android:key="wrp_sb_bg_opacity" android:defaultValue="255" app:minValue="0" app:maxValue="255" />
-        <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select Image" android:key="wrp_sb_bg_image_uri" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/crop_entries" android:title="Image Location" android:key="wrp_sb_bg_crop_type" android:defaultValue="0" android:entryValues="@array/crop_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Select a primary color" android:key="wrp_sb_bg_primary_color" android:dependency="wrp_sb_custom_bg_type" android:defaultValue="\#00000000" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Select Second color" android:key="wrp_sb_second_gradient_color" android:dependency="wrp_sb_custom_bg_type" android:defaultValue="\#00000000" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient Direction" android:key="wrp_sb_bg_gradient_orientation" android:dependency="wrp_sb_custom_bg_type" android:defaultValue="0" android:entryValues="@array/gradient_values" />
-    </PreferenceScreen>
     <PreferenceCategory android:title="Blur Behind Notification Panel">
+        <PreferenceScreen android:title="Blur Behind Notification Panel">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="dlx_np_blur"
@@ -38,8 +15,10 @@
             android:dependency="dlx_np_blur"
             android:defaultValue="1"
             android:key="dlx_np_blur_amount"/>
+        </PreferenceScreen>
     </PreferenceCategory>
     <PreferenceCategory android:title="Quick Settings Panel"/>
+    <PreferenceScreen android:title="Customize QS Panel">
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="QS panel background color" android:key="qs_background_switch_drawable_color" android:defaultValue="false" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title ="Pick QS panel bg color" android:key="qs_background_drawable_color" android:dependency="qs_background_switch_drawable_color" android:defaultValue="\#e61e4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="QS clock color" android:key="switch_clock_header_color" android:defaultValue="false" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
@@ -52,18 +31,6 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Color left of slider" android:key="brightness_slider_color_1" android:dependency="brightness_slider_color_switch" android:defaultValue="\#ff1e4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Color right of slider" android:key="brightness_slider_color_3" android:dependency="brightness_slider_color_switch" android:defaultValue="\#ff1e4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
     </PreferenceScreen>
-    <PreferenceScreen android:title="Mobile Data In Quick Settings">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display mobile data" android:key="wrp_datausage_enabled" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Mobile data text color" android:key="wrp_data_usage_text_color" android:dependency="wrp_datausage_enabled" android:defaultValue="\#e61e4e78" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_gravity_entries" android:title="Location" android:key="wrp_data_usage_text_gravity" android:dependency="wrp_datausage_enabled" android:defaultValue="0" android:entryValues="@array/data_usage_gravity_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Font style" android:key="wrp_data_usage_view_text_style" android:dependency="wrp_datausage_enabled" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-    </PreferenceScreen>
-    <PreferenceCategory android:title="Text under toggles"/>
-    <PreferenceScreen
-        android:title="Toggle text customization">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Text under Toggles" android:key="wrp_text_viewed" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Change Color" android:key="wrp_togg_use_colors" android:defaultValue="false" android:summaryOn="Allowed" android:summaryOff="Forbidden" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color under toggles" android:key="wrp_togg_color_texto" android:dependency="wrp_togg_use_colors" android:defaultValue="\#ff212122" />
     </PreferenceScreen>
     <PreferenceCategory android:title="Quick Settings Tiles">
     </PreferenceCategory>
@@ -71,38 +38,23 @@
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/quick_qs_button_entries" android:title="Number of QS tiles lanscape view" android:key="tweaks_quick_qs_buttons" android:summary="%s" android:defaultValue="6" android:entryValues="@array/quick_qs_button_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/quick_qs_button_landscape_entries" android:title="Number of QS tiles portrait view" android:key="tweaks_quick_qs_buttons_landscape" android:summary="%s" android:defaultValue="10" android:entryValues="@array/quick_qs_button_landscape_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
         <PreferenceCategory android:title="Customize Tile colors" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom QS tiles" android:key="s_tilescolors_enabled" android:defaultValue="false" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/tile_bg_options" android:title="Type of backgrounds" android:key="b_tilebg" android:dependency="s_tilescolors_enabled" android:defaultValue="0" android:entryValues="@array/tile_bg_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
         <PreferenceScreen android:title="Toggle background color">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom QS tiles" android:key="s_tilescolors_enabled" android:defaultValue="false" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
             <PreferenceCategory android:title="Toggle background" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Background of the icons" android:key="s_tilescolors_enabled" android:defaultValue="true" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle ON" android:key="s_tilecircle_on" android:dependency="s_tilescolors_enabled" android:defaultValue="0xFFFFFFFF" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle OFF" android:key="s_tilecircle_off" android:dependency="s_tilescolors_enabled" android:defaultValue="0xFFDADADA" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle DIM" android:key="s_tilecircle_dim" android:dependency="s_tilescolors_enabled" android:defaultValue="0xFFFAFAFA" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
             <PreferenceCategory android:title="The color of the icons" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Color of the icons" android:key="s_tilescolors_enabled" android:defaultValue="true" android:summaryOn="Custom" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle ON" android:key="s_tileicon_on" android:dependency="s_tilescolors_enabled" android:defaultValue="0xFFFF0000" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle OFF" android:key="s_tileicon_off" android:dependency="s_tilescolors_enabled" android:defaultValue="0xFF00FF00" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle DIM" android:key="s_tileicon_dim" android:dependency="s_tilescolors_enabled" android:defaultValue="0xFF0000FF" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="true" hexValue="true" />
         </PreferenceScreen>
-        <PreferenceScreen android:title="Custom icon choices">
-            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Toggle ON" android:key="b_tilebg_pred" android:dependency="s_tilescolors_enabled" android:defaultValue="tbg_1" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/tile_bg_gallery" app:entryList="@array/tile_bg_predefined_icons" app:entryValuesList="@array/tile_bg_predefined_values" />
-            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Toggle OFF" android:key="b_tilebg_pred_off" android:dependency="s_tilescolors_enabled" android:defaultValue="tbg_2" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/tile_bg_gallery" app:entryList="@array/tile_bg_predefined_icons" app:entryValuesList="@array/tile_bg_predefined_values" />
-            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Toggle DIM" android:key="b_tilebg_pred_dim" android:dependency="s_tilescolors_enabled" android:defaultValue="tbg_3" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/tile_bg_gallery" app:entryList="@array/tile_bg_predefined_icons" app:entryValuesList="@array/tile_bg_predefined_values" />
-        </PreferenceScreen>
-        <PreferenceScreen android:title="Custom icon from gallery">
-            <PreferenceCategory android:title="Custom background toggle ON" />
-            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select image" android:key="b_tilebg_custom_uri" android:dependency="s_tilescolors_enabled" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Intensity blur" android:key="b_tilebg_custom_blur" android:dependency="s_tilescolors_enabled" android:defaultValue="0" app:minValue="0" app:maxValue="25" app:unitsValue=" px" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background transparency" android:key="b_tilebg_custom_opacity" android:dependency="s_tilescolors_enabled" android:defaultValue="100" app:minValue="0" app:maxValue="100" app:unitsValue=" %" />
-            <PreferenceCategory android:title="Custom background toggle OFF" />
-            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select image" android:key="b_tilebg_custom_off_uri" android:dependency="s_tilescolors_enabled" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Intensity blur" android:key="b_tilebg_custom_off_blur" android:dependency="s_tilescolors_enabled" android:defaultValue="0" app:minValue="0" app:maxValue="25" app:unitsValue=" px" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background transparency" android:key="b_tilebg_custom_off_opacity" android:dependency="s_tilescolors_enabled" android:defaultValue="100" app:minValue="0" app:maxValue="100" app:unitsValue=" %" />
-            <PreferenceCategory android:title="Custom background toggle DIM" />
-            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select image" android:key="b_tilebg_custom_dim_uri" android:dependency="s_tilescolors_enabled" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Intensity blur" android:key="b_tilebg_custom_dim_blur" android:dependency="s_tilescolors_enabled" android:defaultValue="0" app:minValue="0" app:maxValue="25" app:unitsValue=" px" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background transparency" android:key="b_tilebg_custom_dim_opacity" android:dependency="s_tilescolors_enabled" android:defaultValue="100" app:minValue="0" app:maxValue="100" app:unitsValue=" %" />
+        <PreferenceCategory android:title="Text under toggles expanded view"/>
+        <PreferenceScreen
+            android:title="Toggle text customization">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Text under Toggles" android:key="wrp_text_viewed" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Change Color" android:key="wrp_togg_use_colors" android:defaultValue="false" android:summaryOn="Allowed" android:summaryOff="Forbidden" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color under toggles" android:key="wrp_togg_color_texto" android:dependency="wrp_togg_use_colors" android:defaultValue="\#ff212122" />
         </PreferenceScreen>
     </PreferenceScreen>
     <PreferenceCategory android:title="Ram Bar"/>

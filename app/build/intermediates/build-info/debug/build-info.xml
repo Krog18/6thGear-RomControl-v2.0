@@ -2,13 +2,13 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="28"
-    build-mode="FULL"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.3.1"
-    timestamp="1554496892790"
+    timestamp="1573336915786"
     token="-6094913561471047734"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -26,46 +26,10 @@
     <artifact
         location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\instant-run-apk\debug\RomControl-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1554496892790"
+        timestamp="1573336851024"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -105,6 +69,14 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1573336915786"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kyler\AndroidStudioProjectsRomControl-v2.0\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
     </build>
 

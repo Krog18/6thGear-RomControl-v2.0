@@ -16,7 +16,7 @@
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">This rom has no name</string>
+    <string name="rom_version_for_changelog">KROG_6CSJ2_V2</string>
 
 
 </resources>

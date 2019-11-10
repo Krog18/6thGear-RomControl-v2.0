@@ -2,21 +2,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory
-        android:title="Unlock After Reboot Toggles">
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Fingerprint unlock after reboot"
-        android:summaryOff="Disabled"
-        android:summaryOn="Enabled"
-        android:defaultValue="false"
-        android:key="fingerprint_unlock" />
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Use biometrics after reboot"
-        android:summaryOff="Disabled"
-        android:summaryOn="Enabled"
-        android:defaultValue="false"
-        android:key="agc_biometric_on_boot" />
-    </PreferenceCategory>
-    <PreferenceCategory
         android:title="Screen Wake With USB Plug">
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="USB plug in/out wakeup"

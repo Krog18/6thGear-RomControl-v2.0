@@ -20,9 +20,9 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/icon_12</item>
+        <item>@drawable/icon_9</item>
+        <item>@drawable/icon_8</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
@@ -43,44 +43,45 @@
 
     <!--Team info arrays-->
     <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
+        <item>@drawable/icon_2</item>
         <item>@drawable/icon_6</item>
         <item>@drawable/icon_1</item>
     </array>
     <string-array name="about_team_names">
         <item>Krog18</item>
+        <item>stang5litre</item>
+        <item>klabit87</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
+        <item>https://www.google.com/</item>
         <item>https://www.stang5litre-roms.proboards.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://www.google.com/</item>
     </string-array>
 
 
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
         <item>@drawable/icon_3</item>
         <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
+        <item>@drawable/icon_9</item>
         <item>@drawable/icon_5</item>
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_8</item>
     </array>
     <string-array name="about_credits_names">
-        <item>stang5litre</item>
-        <item>Klabit87</item>
-        <item>jrkruse</item>
         <item>Tylerhole</item>
         <item>Biikman</item>
         <item>Bren123</item>
+        <item>SamGuy2020</item>
+        <item>jrkruse</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
+        <item>https://www.google.com/</item>
     </string-array>
 </resources>

@@ -50,7 +50,7 @@
         <item>Solid color</item>
         <item>Gradient</item>
     </string-array>
-    <string-array name="custom_bg_type_values" translatable="false">
+    <string-array name="custom_bg_type_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -115,9 +115,11 @@
     </string-array>
     <string-array name="battery_bar_entries">
         <item>Hide</item>
-        <item>Show</item>
+        <item>Show up top</item>
+        <item>Show down below</item>
     </string-array>
     <string-array name="battery_bar_values">
+        <item>2</item>
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -573,5 +575,51 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="weather_fonts_entries">
+        <item>DEFAULT</item>
+        <item>Babylon5Station.otf</item>
+        <item>Clockopia.ttf</item>
+        <item>CoreMellow.otf</item>
+        <item>Digital.ttf</item>
+        <item>DS_Cristal.ttf</item>
+        <item>SAMSUNG_CLOCK_NUMERALS.TTF</item>
+        <item>Sony_Sketch_EF.ttf</item>
+    </string-array>
+    <string-array name="weather_fonts_values">
+        <item>DEFAULT</item>
+        <item>Babylon5Station.otf</item>
+        <item>Clockopia.ttf</item>
+        <item>CoreMellow.otf</item>
+        <item>Digital.ttf</item>
+        <item>DS_Cristal.ttf</item>
+        <item>SAMSUNG_CLOCK_NUMERALS.TTF</item>
+        <item>Sony_Sketch_EF.ttf</item>
+    </string-array>
+    <string-array name="icon_sets_entries">
+        <item>Samsung S7</item>
+        <item>Samsung S6</item>
+        <item>Sense</item>
+        <item>Chrom</item>
+        <item>Flat</item>
+        <item>Google+</item>
+        <item>LG</item>
+        <item>MIUI</item>
+        <item>Weezle</item>
+        <item>Now</item>
+        <item>Oreo</item>
+    </string-array>
+    <string-array name="icon_sets_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array>
 </resources>
