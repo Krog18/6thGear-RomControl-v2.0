@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kyler\\AndroidStudioProjectsRomControl-v2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\kyler\\AndroidStudioProjects\\AndroidStudioProjectsRomControl-v2.0-note\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kyler\\.gradle\\wrapper\\dists\\gradle-3.2-all\\caches\\transforms-1\\files-1.1\\design-26.0.0-beta1.aar\\ce1419f37e4d81a823f952092718cbf4\\res\\values-v26\\values-v26.xml",

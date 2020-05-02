@@ -12,7 +12,7 @@
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose Solid Color" android:key="power_menu_bg_primary_color" android:dependency="enable_power_menu_custom_bg" android:defaultValue="\#ff2f3752"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose Second Color for Gradient" android:key="power_menu_second_gradient_color" android:dependency="enable_power_menu_custom_bg" android:defaultValue="\#ff522f52"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient Orientation" android:key="power_menu_bg_gradient_orientation" android:dependency="enable_power_menu_custom_bg" android:defaultValue="0" android:entryValues="@array/gradient_values"/>
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparensy" android:key="power_menu_opacity" android:dependency="enable_power_menu_custom_bg" android:defaultValue="255"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparency" android:key="power_menu_opacity" android:dependency="enable_power_menu_custom_bg" android:defaultValue="255"/>
                 <PreferenceCategory android:title="Matrix Animation Settings in Power Menu"/>
                         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Matrix Animation" android:key="power_matrix_enable" android:summaryOn="Enabled " android:summaryOff="Disabled"/>
                     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color" android:key="power_matrix_anim_text_color" android:summary="Choose Text Color" android:dependency="power_matrix_enable" android:defaultValue="\#1eff00"/>
@@ -27,7 +27,7 @@
     </PreferenceCategory>
     <PreferenceScreen android:title="Display settings in Power Menu">
         <PreferenceCategory android:title="Display settings in the shutdown menu" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_emergencymode_square" android:title="Emergency" android:key="power_emergency_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_rebootui" android:title="Reboot UI" android:key="reboot_ui_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_data_network_square" android:title="Mobile Data" android:key="power_datamode_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_fast_reboot" android:title="Quick Reboot" android:key="power_quick_reboot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_download" android:title="Reboot to Download" android:key="power_download_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
@@ -36,7 +36,6 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screenshot" android:title="Screenshot" android:key="power_screenshot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ic_settings" android:title="Settings" android:key="power_settings_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_torchlight" android:title="Flashlight" android:key="power_torchlight_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_bikemode_square" android:title="SBike Mode" android:key="power_sbike_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
     </PreferenceScreen>
     <PreferenceCategory android:title="Navigation Bar" />
     <PreferenceScreen android:title="Nav Bar Background Settings">
@@ -50,81 +49,25 @@
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient orientation" android:key="navbar_bg_gradient_orientation" android:dependency="enable_navbar_custom_bg" android:defaultValue="0" android:entryValues="@array/gradient_values" />
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparency" android:key="navbar_opacity" android:dependency="enable_navbar_custom_bg" android:defaultValue="255" app:maxValue="255" />
     </PreferenceScreen>
-    <PreferenceScreen
-        android:title="Nav Bar Height">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:defaultValue="false" android:key="asc1_navbar_height_switch" android:summaryOff="disabled" android:summaryOn="enabled" android:title="Nav Bar Height Switch"/>
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Nav Bar Height" android:dependency="asc1_navbar_height_switch" android:key="asc1_navbar_height" android:defaultValue="172" app:minValue="65" app:maxValue="200" app:unitsValue="dp" />
+    <PreferenceScreen android:title="Gif Animation" android:summary="Select GiF Animations">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show GiF Animation" android:key="conf_navibar_gif_animation" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Select an animation style" android:key="navbar_gif_image_style" android:dependency="conf_navibar_gif_animation" android:defaultValue="8" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/wr_gif_animation_drawable" app:entryList="@array/wr_gif_animation_entries" app:entryValuesList="@array/wr_gif_animation_entries_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical animation offset" android:key="conf_navibar_gif_animation_padding" android:dependency="conf_navibar_gif_animation" android:defaultValue="7" app:minValue="0" app:maxValue="30" />
     </PreferenceScreen>
-    <PreferenceCategory android:title="Quick Reply On Secure Lockscreen">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Quick reply on secure lockscreen"
-            android:defaultValue="false"
-            android:summaryOn="Enabled"
-            android:summaryOff="Disabled"
-            android:key="agc_secure_reply"
-            app:packageNameToKill="com.android.systemui"
-            app:isSilent="false" />
+    <PreferenceScreen android:title="3Minit Battery" android:summary="Show 3Minit Battery in the center of Navbar">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="conf_navibar_3minit_battery" android:summary="Show 3Minit Battery in the center of Navbar" android:defaultValue="false" />
+        <PreferenceScreen android:title="3Minit Battery Settings" android:summary="Select 3Minit Battery style" android:dependency="conf_navibar_3minit_battery">
+            <intent android:targetPackage="com.three.minit.minitbatterysettings" android:action="android.intent.action.MAIN" android:targetClass="com.three.minit.minitbatterysettings.MainActivity" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceCategory
+        android:title="Battery Bar">
+        <PreferenceScreen android:title="Battery Bar" android:summary="Battery Bar Preferences">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_style_entries" android:title="Battery bar style" android:key="battery_bar_style" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:summary="%s" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:defaultValue="true" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Bar Color" android:key="battery_bar_color" android:summary="Choose color of battery bar" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+        </PreferenceScreen>
     </PreferenceCategory>
-    <PreferenceScreen android:title="Alarm Clock on the Lockscreen">
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Displaying the Alarm Clock and Delta" android:key="lockscreen_alarm_line" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical displacement" android:key="lockscreen_alarm_padding" android:defaultValue="2076" app:minValue="0" app:maxValue="3000" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Display Width" android:key="lockscreen_alarm_padding_horizontal" android:defaultValue="40" app:minValue="10" app:maxValue="200" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Display the alarm clock" android:key="lockscreen_alarm" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Alarm Font" android:key="lockscreen_alarm_font" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="All caps for the alarm font" android:key="lockscreen_alarm_font_all_caps" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Font color of the alarm clock" android:key="lockscreen_alarm_font_color" android:summary="Select Color" android:defaultValue="\#FFFAFAFA" hexValue="true" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Alarm clock font size" android:key="lockscreen_alarm_font_size" android:defaultValue="22" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Alarm style font" android:key="lockscreen_alarm_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Display the alarm delta" android:key="lockscreen_alarm_delta" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Alarm Delta Font" android:key="lockscreen_alarm_delta_font" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="All caps for the alarm delta font" android:key="lockscreen_alarm_delta_font_all_caps" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Alarm delta font color" android:key="lockscreen_alarm_delta_font_color" android:summary="Select Color" android:defaultValue="\#FFFAFAFA" hexValue="true" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Font size of the alarm delta" android:key="lockscreen_alarm_delta_font_size" android:defaultValue="22" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Alarm delta font style" android:key="lockscreen_alarm_delta_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-    </PreferenceScreen>
-    <PreferenceScreen android:title="Weather on the Lockscreen">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Weather in the lockscreen" android:key="lockscreen_settings_weather" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical weather offset" android:key="lockscreen_settings_weather_padding" android:defaultValue="1500" app:minValue="0" app:maxValue="3000" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Weather icon" android:key="lockscreen_settings_weather_icon" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/icon_sets_entries" android:title="Set of weather icons" android:key="lockscreen_settings_weather_icon_set" android:defaultValue="1" android:entryValues="@array/icon_sets_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Icon Size" android:key="lockscreen_settings_weather_icon_size" android:defaultValue="100" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical icon offset" android:key="lockscreen_settings_weather_icon_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Color" android:key="lockscreen_settings_weather_icon_color" android:defaultValue="\#ffffffff" hexValue="true" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Temperature Units" android:key="lockscreen_settings_weather_scale" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Current temperature" android:key="lockscreen_settings_weather_temp" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical temperature offset" android:key="lockscreen_settings_weather_temp_font_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Temperature Font" android:key="lockscreen_settings_weather_temp_font" android:defaultValue="8" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Font size of temperature" android:key="lockscreen_settings_weather_temp_font_size" android:defaultValue="55" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Font style of the temperature" android:key="lockscreen_settings_weather_temp_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Color temperature" android:key="lockscreen_settings_weather_temp_font_color" android:defaultValue="\#ffffffff" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Max-min temperature" android:key="lockscreen_settings_weather_temp_max_min" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical Max Shift" android:key="lockscreen_settings_weather_temp_max_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Font max temperature" android:key="lockscreen_settings_weather_temp_max_font" android:defaultValue="8" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Font size max temperature" android:key="lockscreen_settings_weather_temp_max_font_size" android:defaultValue="18" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Font style max temperature" android:key="lockscreen_settings_weather_temp_max_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Font color max temperature" android:key="lockscreen_settings_weather_temp_max_font_color" android:defaultValue="\#ffffffff" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical mine offset" android:key="lockscreen_settings_weather_temp_min_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Temperature min. font" android:key="lockscreen_settings_weather_temp_min_font" android:defaultValue="8" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Font size min. temperature" android:key="lockscreen_settings_weather_temp_min_font_size" android:defaultValue="18" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Font style min. Temperature" android:key="lockscreen_settings_weather_temp_min_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Temperature min. color" android:key="lockscreen_settings_weather_temp_min_font_color" android:defaultValue="\#ffffffff" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Location and text" android:key="lockscreen_settings_weather_location_text" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Text as a separate line" android:key="lockscreen_settings_weather_row" android:defaultValue="false" android:summaryOn="Separate line" android:summaryOff="Same line" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical location offset" android:key="lockscreen_settings_weather_location_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Location Font" android:key="lockscreen_settings_weather_location_font" android:defaultValue="8" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Font size of location" android:key="lockscreen_settings_weather_location_font_size" android:defaultValue="18" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Location Font Style" android:key="lockscreen_settings_weather_location_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Color location" android:key="lockscreen_settings_weather_location_font_color" android:defaultValue="\#ffffffff" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Weather Text Vertical Offset" android:key="lockscreen_settings_weather_text_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Weather Text Font" android:key="lockscreen_settings_weather_text_font" android:defaultValue="8" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Weather text font size" android:key="lockscreen_settings_weather_text_font_size" android:defaultValue="18" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Weather text font style" android:key="lockscreen_settings_weather_text_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Weather Text Color" android:key="lockscreen_settings_weather_text_font_color" android:defaultValue="\#ffffffff" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="RealFeel Temperature" android:key="lockscreen_settings_weather_temp_realfeel" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="RealFeel vertical Offset" android:key="lockscreen_settings_weather_temp_realfeel_font_padding" android:defaultValue="0" app:minValue="-50" app:maxValue="50" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Font RealFeel temperature" android:key="lockscreen_settings_weather_temp_realfeel_font" android:defaultValue="8" android:entryValues="@array/weather_fonts_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Font RealFeel size" android:key="lockscreen_settings_weather_temp_realfeel_font_size" android:defaultValue="22" app:minValue="10" app:maxValue="100" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="RealFeel font style" android:key="lockscreen_settings_weather_temp_realfeel_font_style" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="RealFeel temperature Color" android:key="lockscreen_settings_weather_temp_realfeel_font_color" android:defaultValue="\#ffffffff" />
-    </PreferenceScreen>
 </PreferenceScreen>

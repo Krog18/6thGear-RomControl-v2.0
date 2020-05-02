@@ -1,50 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceScreen android:title="Battery Settings" android:summary="Configure Battery Display">
-        <PreferenceCategory
-            android:title="Battery Bar">
-            <PreferenceScreen android:title="Battery Bar" android:summary="Battery Bar Preferences">
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_style_entries" android:title="Battery bar style" android:key="battery_bar_style" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:summary="%s" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
-                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:defaultValue="true" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
-                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Bar Color" android:key="battery_bar_color" android:summary="Choose color of battery bar" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
-            </PreferenceScreen>
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:title="Battery Display" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show/hide 3minit battery" android:key="switch_3minit_visible" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="3Minit Battery Settings" app:componentName="com.three.minit.minitbatterysettings.free/com.three.minit.minitbatterysettings.MainActivity" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show/hide stock battery" android:key="stock_battery_visibility" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display percentages" android:key="display_battery_percentage" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-        <PreferenceScreen android:title="Battery and Percent Color">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery and Percent Color" android:key="wbr_main_battery_color" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Default" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Lightning Charge Color" android:key="wbr_lightning" android:dependency="wbr_main_battery_color" android:defaultValue="\#ff222222" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Level Background Color" android:key="wbr_batterylevelbackground" android:dependency="wbr_main_battery_color" android:defaultValue="\#ffffffff" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Level" android:key="wbr_batteryframe" android:dependency="wbr_main_battery_color" android:defaultValue="\#ffffffff" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Percentage Color" android:key="percent" android:dependency="wbr_main_battery_color" android:defaultValue="\#ffffffff" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        </PreferenceScreen>
+    <PreferenceCategory android:title="Status Bar Background" />
+    <PreferenceScreen android:title="Background Settings">
+        <PreferenceCategory android:title="Background and Gradient" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Activate custom background" android:key="enable_sb_custom_bg" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_sb_bg_type_entries" android:title="Background type" android:key="sb_custom_bg_type" android:dependency="enable_sb_custom_bg" android:defaultValue="1" android:entryValues="@array/custom_sb_bg_type_values" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Primary color" android:key="sb_bg_primary_color" android:summary="Select color" android:dependency="enable_sb_custom_bg" android:defaultValue="\#00000000" hexValue="true" alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Gradient" android:key="sb_second_gradient_color" android:summary="Select color" android:dependency="enable_sb_custom_bg" android:defaultValue="\#00000000" hexValue="true" alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient orientation" android:key="sb_bg_gradient_orientation" android:dependency="enable_sb_custom_bg" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparency" android:key="sb_opacity" android:dependency="enable_sb_custom_bg" android:defaultValue="255" app:maxValue="255" />
     </PreferenceScreen>
-    <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Select alarm icon" android:key="statusbar_alarm_icon_select" android:defaultValue="1" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/statusbar_alarm_icon_drawables" app:entryList="@array/statusbar_alarm_icon_entries" app:entryValuesList="@array/statusbar_alarm_icon_values" />
-    <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Select geolocation icon" android:key="statusbar_gps_icon_select" android:defaultValue="1" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/statusbar_gps_icon_drawables" app:entryList="@array/statusbar_gps_icon_entries" app:entryValuesList="@array/statusbar_gps_icon_values" />
-    <PreferenceScreen android:title="Statusbar Weather">
-        <PreferenceScreen android:title="Icon">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show Icon" android:key="statusbar_weather_icon_visibility" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/icon_sets_entries" android:title="Weather icons set" android:key="statusbar_weather_icon_set" android:defaultValue="1" android:entryValues="@array/icon_sets_values" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Icon size" android:key="statusbar_weather_icon_size" android:dependency="statusbar_weather_icon_visibility" android:defaultValue="40" app:minValue="10" app:maxValue="100" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical icon offset" android:key="statusbar_weather_icon_padding" android:dependency="statusbar_weather_icon_visibility" android:defaultValue="0" app:minValue="-20" app:maxValue="20" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="System Color" android:key="statusbar_weather_icon_system_color" android:dependency="statusbar_weather_icon_visibility" android:defaultValue="true" android:summaryOn="Stock" android:summaryOff="Colored" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose a color" android:key="statusbar_weather_icon_color" android:dependency="statusbar_weather_icon_visibility" android:defaultValue="\#ffffffff" hexValue="true" alphaSlider="true" />
-        </PreferenceScreen>
-        <PreferenceScreen android:title="Temperature">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show temperature" android:key="statusbar_weather_temperature_visibility" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Temperature Size" android:key="statusbar_weather_temperature_size" android:dependency="statusbar_weather_temperature_visibility" android:defaultValue="15" app:minValue="10" app:maxValue="100" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Vertical temperature offset" android:key="statusbar_weather_temperature_padding" android:dependency="statusbar_weather_temperature_visibility" android:defaultValue="0" app:minValue="-20" app:maxValue="20" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/weather_fonts_entries" android:title="Temperature font" android:key="statusbar_weather_temperature_font" android:summary="%s" android:dependency="statusbar_weather_temperature_visibility" android:entryValues="@array/weather_fonts_values" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/data_usage_text_style_entries" android:title="Temperature Style" android:key="statusbar_weather_temperature_style" android:summary="%s" android:dependency="statusbar_weather_temperature_visibility" android:defaultValue="0" android:entryValues="@array/data_usage_text_style_values" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Temperature color" android:key="statusbar_weather_temperature_system_color" android:dependency="statusbar_weather_temperature_visibility" android:defaultValue="true" android:summaryOn="Stock" android:summaryOff="Colored" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose color" android:key="statusbar_weather_temperature_color" android:dependency="statusbar_weather_temperature_visibility" android:defaultValue="\#ffffffff" hexValue="true" alphaSlider="true" />
-        </PreferenceScreen>
+    <PreferenceCategory
+        android:title="Battery Display" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show/hide 3minit battery" android:key="switch_3minit_visible" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <PreferenceScreen android:title="3Minit Battery Settings" android:summary="Select 3Minit Battery style" android:dependency="switch_3minit_visible">
+        <intent android:targetPackage="com.three.minit.minitbatterysettings" android:action="android.intent.action.MAIN" android:targetClass="com.three.minit.minitbatterysettings.MainActivity" />
     </PreferenceScreen>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display percentages" android:key="display_battery_percentage" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
 </PreferenceScreen>

@@ -20,21 +20,18 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_12</item>
         <item>@drawable/icon_9</item>
         <item>@drawable/icon_8</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
         <item>Our Site</item>
         <item>XDA</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
         <item>https://www.stang5litre-roms.proboards.com/</item>
         <item>http://forum.xda-developers.com/</item>
     </string-array>
@@ -46,11 +43,13 @@
         <item>@drawable/icon_2</item>
         <item>@drawable/icon_6</item>
         <item>@drawable/icon_1</item>
+        <item>@drawable/icon_7</item>
     </array>
     <string-array name="about_team_names">
         <item>Krog18</item>
         <item>stang5litre</item>
         <item>klabit87</item>
+        <item>jrkruse</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>https://www.google.com/</item>
@@ -66,15 +65,12 @@
         <item>@drawable/icon_4</item>
         <item>@drawable/icon_9</item>
         <item>@drawable/icon_5</item>
-        <item>@drawable/icon_7</item>
-        <item>@drawable/icon_8</item>
     </array>
     <string-array name="about_credits_names">
         <item>Tylerhole</item>
         <item>Biikman</item>
         <item>Bren123</item>
-        <item>SamGuy2020</item>
-        <item>jrkruse</item>
+        <item>TheMadScientist</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
         <item>https://www.google.com/</item>

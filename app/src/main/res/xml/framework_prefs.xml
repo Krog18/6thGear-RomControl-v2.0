@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory
-        android:title="Screen Wake With USB Plug">
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="USB plug in/out wakeup"
-        android:key="usb_plugged"
-        android:defaultValue="true"
-        android:summaryOn="On"
-        android:summaryOff="Off" />
-    </PreferenceCategory>
-    <PreferenceCategory
-        android:title="Safe Volume Toggle">
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Safe Volume Warning"
-        android:defaultValue="true"
-        android:key="b_aviso_volumen"
-        android:summaryOn="Enabled"
-        android:summaryOff="Disabled"  />
-    </PreferenceCategory>
+    <PreferenceCategory android:title="Toast Animation" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toast_animation_entries" android:title="Select Toast Animation" android:key="toast_animation" android:defaultValue="6" android:entryValues="@array/toast_animation_values" />
 </PreferenceScreen>

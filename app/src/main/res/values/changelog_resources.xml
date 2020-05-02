@@ -9,14 +9,36 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Still</item>
-        <item>Teting</item>
+        <item>Added US carrier support</item>
+        <item>Fixed loss of bluetooth pairs after reboot</item>
+        <item>Unlocked mobile hotspot</item>
+        <item>Fixed Samsung health</item>
+        <item>Modded theme store for unlimited trial time</item>
+        <item>Over 1k fonts</item>
+        <item>Signature verification removed</item>
+        <item>2 sim plus sd card allowed</item>
+        <item>Status bar background color choices</item>
+        <item>Battery bar in status bar</item>
+        <item>3Minit battery option for status bar</item>
+        <item>Advanced power menu with switches</item>
+        <item>Power menu background choices</item>
+        <item>Removed all reboot confirmations in power menu</item>
+        <item>Navigation bar background choices</item>
+        <item>Navigation bar gifs</item>
+        <item>Battery bar in navbar</item>
+        <item>3Minit battery option for navigation bar</item>
+        <item>Custom toast animations</item>
+        <item>Blur in notification panel with switch</item>
+        <item>Notification background templates</item>
+        <item>Notification background color choices</item>
+        <item>Notification panel bottom text color choices</item>
+        <item>Notification panel bottom text size choices</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">KROG_6CSJ2_V2</string>
+    <string name="rom_version_for_changelog">Krog Note 9 Rom</string>
 
 
 </resources>
