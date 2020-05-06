@@ -4,31 +4,4 @@
     <PreferenceCategory android:title="Blur In Notification Panel" />
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Blur Effect" android:key="b_ga_panel_blur_enable" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
     <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Blur Intensity" android:key="b_ga_panel_blur" android:defaultValue="3" app:minValue="0" app:maxValue="25" app:unitsValue="%" />
-    <PreferenceCategory android:title="Notification Background Choices" />
-    <PreferenceScreen android:title="Select background and background color for notifications">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Transparent background of the notification background" android:key="transparent_bg_bg" android:defaultValue="true" android:summaryOn="Opaque" android:summaryOff="Transparent" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <PreferenceCategory android:title="Notification background settings" />
-        <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Select background templates" android:key="notification_bg_select" android:summary="Choose a template" android:defaultValue="0" app:drawableArray="@array/notification_bg_select_drawables" app:entryList="@array/notification_bg_select_entries" app:entryValuesList="@array/notification_bg_select_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Custom color overlay for template notifications" android:key="notif_custom_fon_color" android:defaultValue="\#00000000" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Notification background color" android:key="is_expanded_switch_bg" android:defaultValue="false" android:summaryOn="Custom Color" android:summaryOff="Default color" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Custom color for stock notifications" android:key="is_notification_bg_color" android:dependency="is_expanded_switch_bg" android:defaultValue="\#78414c7a" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-        <PreferenceScreen android:title="Custom notification background, selection from the gallery">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom background" android:key="notif_bg_shape" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_bg_type_entries" android:title="Background type" android:key="edit_panel_custom_bg_type" android:defaultValue="0" android:entryValues="@array/custom_bg_type_values" app:dependentValue="0" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background transparency" android:key="edit_panel_opacity" android:defaultValue="255" app:minValue="0" app:maxValue="255" />
-            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select image" android:key="edit_panel_bg_uri" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/crop_entries" android:title="Image Location" android:key="edit_panel_crop_type" android:defaultValue="0" android:entryValues="@array/crop_values" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose primary color" android:key="edit_panel_bg_primary_color" android:dependency="edit_panel_custom_bg_type" android:defaultValue="\#00000000" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose second color" android:key="edit_panel_second_gradient_color" android:dependency="edit_panel_custom_bg_type" android:defaultValue="\#00000000" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient Direction" android:key="edit_panel_bg_gradient_orientation" android:dependency="edit_panel_custom_bg_type" android:defaultValue="0" android:entryValues="@array/gradient_values" />
-        </PreferenceScreen>
-    </PreferenceScreen>
-    <PreferenceCategory android:title="Notification Panel Bottom Text" />
-    <PreferenceScreen android:title="Notification Panel Bottom Text">
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Custom Color Notification Settings" android:key="noti_setting_text_color" android:defaultValue="\#ffffffff" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Custom Color Clear all" android:key="set_clear_text_color" android:defaultValue="\#ffffffff" />
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Button text size" android:key="qs_bottom_switch_text_size" android:defaultValue="false" android:summaryOn="Custom size" android:summaryOff="Default size" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Custom text size Notification settings" android:key="noti_setting_text_size" android:dependency="qs_bottom_switch_text_size" android:defaultValue="14" app:minValue="10" app:maxValue="20" />
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Custom text size Clear all" android:key="set_clear_text_size" android:dependency="qs_bottom_switch_text_size" android:defaultValue="14" app:minValue="10" app:maxValue="20" />
-    </PreferenceScreen>
 </PreferenceScreen>

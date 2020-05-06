@@ -20,7 +20,7 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_9</item>
+        <item>@drawable/icon_10</item>
         <item>@drawable/icon_8</item>
     </array>
 
@@ -61,16 +61,16 @@
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_3</item>
         <item>@drawable/icon_4</item>
         <item>@drawable/icon_9</item>
         <item>@drawable/icon_5</item>
+        <item>@drawable/icon_3</item>
     </array>
     <string-array name="about_credits_names">
-        <item>Tylerhole</item>
         <item>Biikman</item>
-        <item>Bren123</item>
+        <item>fz789</item>
         <item>TheMadScientist</item>
+        <item>Tylerhole</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
         <item>https://www.google.com/</item>

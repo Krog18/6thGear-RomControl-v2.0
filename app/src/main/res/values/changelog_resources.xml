@@ -29,10 +29,6 @@
         <item>3Minit battery option for navigation bar</item>
         <item>Custom toast animations</item>
         <item>Blur in notification panel with switch</item>
-        <item>Notification background templates</item>
-        <item>Notification background color choices</item>
-        <item>Notification panel bottom text color choices</item>
-        <item>Notification panel bottom text size choices</item>
     </string-array>
 
     <!--This will be the dialog title.
